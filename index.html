@@ -1,0 +1,199 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sen:wght@400;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <title>Movie Design</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <h1 class="logo">FLAKES</h1>
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-list-item active">Home</li>
+                    <li class="menu-list-item">Movies</li>
+                    <li class="menu-list-item">Series</li>
+                    <li class="menu-list-item">Popular</li>
+                    <li class="menu-list-item">Trends</li>
+
+                </ul>
+            </div>
+            <div class="profile-container">
+                <img class="profile-picture" src="https://tse1.mm.bing.net/th?id=OIP.r4Bc_sE1fGtJ-fgmqsY6hAHaFJ&pid=Api&P=0" alt="">
+                <div class="profile-text-container">
+                    <span class="profile-text">Profile</span>
+                    <i class="fas fa-caret-down"></i>
+                </div>
+                <div class="toggle">
+                    <i class="fas fa-moon toggle-icon"></i>
+                    <i class="fas fa-sun toggle-icon"></i>
+                    <div class="toggle-ball"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar">
+        <i class="left-menu-icon fas fa-search"></i>
+        <i class="left-menu-icon fas fa-home"></i>
+        <i class="left-menu-icon fas fa-bookmark"></i>        
+    </div>
+    <div class="container">
+        <div class="content-container">
+            <div class="featured-content"
+                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/f-1.jpg');">
+                <img class="featured-title" src="https://raw.githubusercontent.com/safak/movie-website/master/img/f-t-1.png" alt="">
+                <p class="featured-desc">With the help of a German bounty-hunter,
+                     a freed slave sets out to rescue his wife from a brutal plantation-owner in Mississippi.                </p>
+                <button class="featured-button">WATCH</button>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">NEW RELEASES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="https://raw.githubusercontent.com/safak/movie-website/master/img/1.jpeg" alt="">
+                            <span class="movie-list-item-title">Her</span>
+                            <p class="movie-list-item-desc">In a near future, a lonely writer develops an 
+                                unlikely relationship with an operating system designed to meet his every need.                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="data:image/jpeg;base64,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" alt="">
+                            <span class="movie-list-item-title">Beast</span>
+                            <p class="movie-list-item-desc">A father and his two teenage daughters find themselves hunted by
+                                 a massive rogue lion intent on proving that the Savanna has but one apex predator.
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="https://raw.githubusercontent.com/safak/movie-website/master/img/3.jpg" alt="">
+                            <span class="movie-list-item-title">Storm</span>
+                            <p class="movie-list-item-desc">A dangerous blizzard hits an isolated town and brings along
+                                 a mysterious stranger intent on terrorizing people for his own desires.                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="https://tse2.mm.bing.net/th?id=OIP.aY9lIxfkiJNoAu2TH2XldQHaLH&pid=Api&P=0" alt="">
+                            <span class="movie-list-item-title">1917</span>
+                            <p class="movie-list-item-desc">April 6th, 1917. As an infantry battalion assembles to wage war deep in enemy territory,
+                                 two soldiers are assigned to race against time and deliver a message that will stop 1,600 men from walking straight into a deadly trap.                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="https://tse2.mm.bing.net/th?id=OIP.6VWhpHAryj6k2kSJjuhy3QHaK9&pid=Api&P=0" alt="">
+                            <span class="movie-list-item-title">Avengers Endgame</span>
+                            <p class="movie-list-item-desc">After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies,
+                                 the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe.                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="https://tse4.mm.bing.net/th?id=OIP.rFQhB05VKMSkUCwTBNFQZgHaJ3&pid=Api&P=0" alt="">
+                            <span class="movie-list-item-title">Believe me</span>
+                            <p class="movie-list-item-desc">On the night she plans on taking her own life, a 17-year-old girl is kidnapped and finds herself fighting to stay alive. She gets released,
+                                 but when she returns home, no one believes her story except for one detective.                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="https://tse3.mm.bing.net/th?id=OIP.oOLXCksmbhAjjbzETVUWUgHaK8&pid=Api&P=0" alt="">
+                            <span class="movie-list-item-title">Spiderman Far from home</span>
+                            <p class="movie-list-item-desc">Following the events of Avengers: Endgame (2019),
+                            Spider-Man must step up to take on new threats in a world that has changed forever.                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>s
+                </div>
+            </div>
+            <div class="movie-list-container">
+                <h1 class="movie-list-title">NEW RELEASES</h1>
+                <div class="movie-list-wrapper">
+                    <div class="movie-list">
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="https://www.cinezik.org/critiques/affiches/top-gun-maverick2020053100.jpg" alt="">
+                            <span class="movie-list-item-title">Top Gun: Maverick</span>
+                            <p class="movie-list-item-desc">After thirty years, Maverick is still pushing the envelope as a top naval aviator, but must confront ghosts of his past when he 
+                                leads TOP GUN's elite graduates on a mission that demands the ultimate sacrifice from those chosen to fly it.                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="https://s.yimg.com/fz/api/res/1.2/L.ZZgqWlDKqaCPQNpxN5ng--~C/YXBwaWQ9c3JjaGRkO2ZpPWZpdDtoPTI2MDtxPTgwO3c9MTk0/https://s.yimg.com/zb/imgv1/278da644-b7ef-3e1b-872d-3c31ff8fd310/t_500x300" alt="">
+                            <span class="movie-list-item-title">Fall</span>
+                            <p class="movie-list-item-desc">Best friends Becky and Hunter find themselves at the top of a 2,000-foot radio tower.                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTpgpc-grHYbQ7fF1IXw6mjgP8WBCcTT5a2y9v2UgmOR9TIVqQ-" alt="">
+                            <span class="movie-list-item-title">Jurassic World Dominion</span>
+                            <p class="movie-list-item-desc">Four years after the destruction of Isla Nublar, Biosyn operatives attempt to track down Maisie Lockwood,
+                                 while Dr Ellie Sattler investigates a genetically engineered swarm of giant insects.
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRZfkv9Cfpqc0MHSWj9pMEH_mOMboeAwx5ph4HjwTUw5rF4NfLw" alt="">
+                            <span class="movie-list-item-title">The Black Phone</span>
+                            <p class="movie-list-item-desc">After being abducted by a child killer and locked in a soundproof basement,
+                                 a 13-year-old boy starts receiving calls on a disconnected phone from the killer's previous victims.
+
+                            </p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTCR9FSMDFVM4V_l6fcJRssT-oPvAyDpjqAxZWYTyySqKh7RgLL" alt="">
+                            <span class="movie-list-item-title">The Gray Man</span>
+                            <p class="movie-list-item-desc">When the CIA's most skilled operative-whose true identity is known to none-accidentally uncovers dark agency secrets, a
+                                 psychopathic former colleague puts a bounty on his head, setting off a global manhunt by international assassins.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQXIMgLLwjmhmTZIbMnn86CPbd0em0GW0GTEbnTonZBcvYppm5z" alt="">
+                            <span class="movie-list-item-title">The Lost City</span>
+                            <p class="movie-list-item-desc">A reclusive romance novelist on a book tour with her cover model gets 
+                                swept up in a kidnapping attempt that lands them both in a cutthroat jungle adventure.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                        <div class="movie-list-item">
+                            <img class="movie-list-item-img" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTV_78GBoE0foy5YU1wW7HdAgEKcfEPQDLnTaiK52CEmKI-FkNi" alt="">
+                            <span class="movie-list-item-title">The northman</span>
+                            <p class="movie-list-item-desc">From visionary director Robert Eggers comes The Northman,
+                                 an action-filled epic that follows a young Viking prince on his quest to avenge his father's murder.</p>
+                            <button class="movie-list-item-button">Watch</button>
+                        </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+            <div class="featured-content"
+                style="background: linear-gradient(to bottom, rgba(0,0,0,0), #151515), url('img/f-2.jpg');">
+                <img class="featured-title" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCAT4deET55wX0MzpBp45_7201ZndSAI8m2W52rNVeVmEbEgEW" alt="">
+                <p class="featured-desc">Street-smart Nathan Drake is recruited by seasoned treasure hunter Victor 
+                    "Sully" Sullivan to recover a fortune amassed by Ferdinand Magellan, and lost 500 years ago by the House of Moncada.
+
+                </p>
+                <button class="featured-button">WATCH</button>
+            </div>
+        
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+                    </div>
+                    <i class="fas fa-chevron-right arrow"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
